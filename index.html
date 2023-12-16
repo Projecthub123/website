@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TANMAY RAUT</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
+    <link rel="shortcut icon" href="./TANMAY RAUT.png" type="image/x-icon">
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <ul id="menu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Projects</a></li>
+                    <div class="dropdown">
+                        <li><a href="#">Resume</a></li>
+                        <div class="dropdown-content">
+                            <a href="Tanmay raut.pdf" download>Download Resume</a>
+                        </div>
+                    </div>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <h2>I'm <span class="auto-type"></span></h2><br>
+                <h1>Hi, I'm<br><span>Tanmay</span> Raut<br>from India</h1>
+            </div>
+        </div>
+    </div>
+
+    <!-- About -->
+    <div id="about">
+        <div class="container1">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="t1-removebg-preview.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="subtitle">About Me</h1>
+                    <p>
+                        Hi I'm Tanmay Raut, an aspiring Java developer with a keen interest in web development and Block chain technology. As an Information Technology student, I am passionate about exploring the depths of computer science and continuously expanding my knowledge in this ever-evolving field. 
+                    </p>
+                    <div class="tab-title">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Development</span><br>Designing web Application</li><br><br>
+                            <li><span>JAVA</span><br>Data Structures and Algorithm</li><br><br>
+                            <li><span>C++</span></li><br><br>
+                            <li><span>Object Oriented Programming</span></li><br><br>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Java Intern</span><br>Oasis Infobyte (September 2023 - October 2023)</li><br><br>
+                            <li><span>Java Intern</span><br>Codsoft (July 2023 - September 2023)</li>
+                            
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2022 - Present</span><br>Shri Guru Gobind Singhji Institute of Engineering and Technology, Nanded <br><br>B-Tech in Information Technology <br><br>CGPA - 9.08 (First year)</li><br><br>
+                            <li><span>2020 - 2022</span><br>Shri Datta Vidya Mandir , Buttibori, Nagpur <br><br>12th with 88.4%</li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- MY WORK -->
+    <div id="portfolio">
+        <div class="container1">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="work-1.png" width="50px">
+                    <div class="layer">
+                        <h3>Quiz Website</h3>
+                        <p>Made an Quiz Website with the help of HTML , CSS and Javascript.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="work-2.png" alt="">
+                    <div class="layer">
+                        <h3>ATM Interface</h3>
+                        <p>Using my OOPS concept with JAVA I made an ATM Interface where user can Deposit & Withdraw money. Also, user acn view Balance and View Mini Statement.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="work-3.png" alt="">
+                    <div class="layer">
+                        <h3>Calculator</h3>
+                        <p>Using HTML CSS and Javascript made an Simple Calculator.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="https://github.com/Tanmayraut16?tab=repositories" class="btn">See More</a>
+        </div>
+    </div>
+
+
+    <!-- Contact -->
+    <div id="contact">
+        <div class="container1">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i id="icon" class="fa-solid fa-envelope"></i> Tanmayraut16@outlook.com</p>
+                    <p><i id="icon" class="fa-solid fa-phone"></i> +91 9359195076</p>
+                    <div class="social-icons">
+                        <a href="https://www.instagram.com/tanmay_raut16/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://github.com/Tanmayraut16"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/tanmay-raut-416303257/"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <div class="b">
+                        <a href="Tanmay raut.pdf" download class="btn btn2"><i class="fa-solid fa-download"></i> Download CV</a>
+                    </div>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Messgae"></textarea>
+                        <i id="icon" class="fa-solid fa-paper-plane"></i><button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © Tanmay Raut. All Rights Reserved.<br>Unauthorized reproduction or use of any content without permission is strictly prohibited.</p>
+        </div>
+    </div>
+
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of  tablinks){
+                tablink.classList.remove("active-link")
+            }
+            for(tabcontent of  tabcontents){
+                tabcontent.classList.remove("active-tab")
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+    <script>
+        var menu = document.getElementById("menu");
+
+        function openmenu(){
+            menu.style.left = "0";
+        }
+        function closemenu(){
+            menu.style.left = "-200px";
+        }
+    </script>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed(".auto-type" , {
+            strings: ["Coder" , "Designer" , "Developer"] , typeSpeed:150 , backSpeed:150,
+            loop: true
+        })
+    </script>
+
+</body>
+</html>
